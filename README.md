@@ -1,7 +1,2 @@
 # alexellis.io
-http://alexellis.io/
-I
-Like
-Jenkins
-For
-Ci
+Hosted at: http://alexellis.io/
