@@ -8,14 +8,18 @@ app.use("/", express.static('public'));
 app.use("/dist/", express.static('bower_components'));
 
 app.use("/goto/:id", function(req, res) {
-  if(req.params.id == "github") {
-    return res.redirect(302, "https://github.com/alexellis/");
-  } else if(req.params.id == "blog") {
-    return res.redirect(302, "http://blog.alexellis.io/");
+  if(req.params && req.params.id) {
+    if(req.params.id == "github") {
+      return res.redirect(302, "https://github.com/alexellis/");
+    } else if(req.params.id == "blog") {
+      return res.redirect(302, "http://blog.alexellis.io/");
+    } else if(req.params.id == "linkedin") {
+      return res.redirect(302, "https://www.linkedin.com/in/alexellisuk/");
+    }
   }
   res.end(404);
 });
 
 app.listen(3000, function() {
-    console.log("alexellis.io started");
+    console.log("alexellis.io started.");
 });
