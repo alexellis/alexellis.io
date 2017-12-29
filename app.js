@@ -9,12 +9,16 @@ app.use("/dist/", express.static('bower_components'));
 
 app.use("/goto/:id", function(req, res) {
   if(req.params && req.params.id) {
-    if(req.params.id == "github") {
-      return res.redirect(302, "https://github.com/alexellis/");
-    } else if(req.params.id == "blog") {
-      return res.redirect(302, "http://blog.alexellis.io/");
-    } else if(req.params.id == "linkedin") {
-      return res.redirect(302, "https://www.linkedin.com/in/alexellisuk/");
+
+    switch(req.params.id) {
+      case "github":
+        return res.redirect(302, "https://github.com/alexellis/");
+      case "blog":
+        return res.redirect(302, "http://blog.alexellis.io/");
+      case "linkedin":
+        return res.redirect(302, "https://www.linkedin.com/in/alexellisuk/");
+      case "openfaas":
+        return res.redirect(302, "https://www.openfaas.com/");
     }
   }
   res.end(404);
