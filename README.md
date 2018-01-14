@@ -1,2 +1,3 @@
 # alexellis.io
-Hosted at: http://alexellis.io/
+
+Hosted at: https://www.alexellis.io/
