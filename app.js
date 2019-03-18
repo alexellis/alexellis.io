@@ -26,6 +26,8 @@ app.use("/goto/:id", function(req, res) {
         return res.redirect(302, "https://www.linkedin.com/in/alexellisuk/");
       case "openfaas":
         return res.redirect(302, "https://www.openfaas.com/");
+      case "twitter":
+        return res.redirect(302, "https://twitter.com/alexellisuk");
     }
   }
   res.end(404);
