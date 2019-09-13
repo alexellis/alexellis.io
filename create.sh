@@ -2,7 +2,7 @@
 
 docker rm -f alexellisio
 
-TAG="alexellis2/alexellisio:2019-08-16"
+TAG="alexellis2/alexellisio:2019-09-13"
 
 docker run --name alexellisio \
  -p 3000:3000 \
