@@ -11,5 +11,5 @@ app.use("/", express.static('public'));
 app.use("/dist/", express.static('bower_components'));
 
 app.listen(port, function() {
-    console.log(`alexellis.io started on port: ${port}.`);
+    console.log(`alexellis.io started on port: http://0.0.0.0:${port}`);
 });
