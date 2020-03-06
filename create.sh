@@ -1,8 +1,9 @@
 #!/bin/sh
 
 set -e
+export DATE=2020-03-06
 
-TAG="alexellis2/alexellisio:2020-02-04"
+TAG="alexellis2/alexellisio:$DATE"
 
 docker pull $TAG
 
