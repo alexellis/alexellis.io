@@ -1,7 +1,7 @@
 #!/bin/sh
 
 set -e
-export DATE=2020-03-06
+export DATE=2020-03-08
 
 TAG="alexellis2/alexellisio:$DATE"
 
