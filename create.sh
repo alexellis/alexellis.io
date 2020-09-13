@@ -13,4 +13,4 @@ docker rm -f alexellisio
 docker run --name alexellisio \
  -p 3000:3000 \
  --restart=always \
- d ${TAG}
+ -d ${TAG}
