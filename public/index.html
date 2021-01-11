@@ -1,4 +1,5 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js" crossorigin="anonymous"></script>
@@ -25,10 +26,13 @@
     <style>
      body {
          font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
-         font-size: 1.6rem;
+         font-size: 1.8rem;
          font-weight: 300;
     }
 
+    .panel-title{
+        font-size: 1.9rem;
+    }
     .list-group-item a {
         text-decoration: underline;
     }
@@ -45,45 +49,56 @@
     <body>
         <div class="container-fluid">
             <div class="jumbotron" style="margin-top: 5px; padding-top: 2px; ;padding-bottom: 2px;">
-                <h1 style="font-size: 7.5rem; line-height: 1.2; font-weight: 300;"><img style="width: 84px; height: 84px;  border-radius: 10px;" src="https://avatars2.githubusercontent.com/u/6358735?s=180&v=4"></img>&nbsp;<small style="color: black">Alex Ellis <a href="https://twitter.com/alexellisuk/"><span class="fab fa-twitter"></span></a> <a href="https://www.linkedin.com/in/alexellisuk/"><span class="fab fa-linkedin"></span></a></small></h1>
+                <h1 style="font-size: 7.5rem; line-height: 1.2; font-weight: 300;"><img alt="Alex Ellis" style="width: 84px; height: 84px;  border-radius: 10px;" src="https://avatars2.githubusercontent.com/u/6358735?s=180&v=4">&nbsp;<small style="color: black">Alex Ellis <a href="https://twitter.com/alexellisuk/"><span class="fab fa-twitter"></span></a> <a href="https://www.linkedin.com/in/alexellisuk/"><span class="fab fa-linkedin"></span></a></small></h1>
 
                 <h3 style="font-size: 3.5rem; line-height: 1.2; font-weight: 300;">Cloud Native, Community &amp; Content</h3>
                 <p>I help companies on their Cloud Native journey, to create leading content, and to build enduring community.</p>
+
+                <div style="margin-bottom: 20px; margin-top: 40px;">
+                    <a href="http://eepurl.com/gVjsKT" class="btn btn-default btn-lg"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> Subscribe for news &amp; updates</a>
+                </div>
             </div>
 
             <div class="row col-xs-12">
 
                 <div class="panel panel-default">
                     <div class="panel-heading">
-                        <h3 class="panel-title">Consulting from OpenFaaS Ltd</h3>
+                        <h4 class="panel-title">At OpenFaaS Ltd, we're story-tellers</h3>
                     </div>
 
                     <div class="panel-body">
+
+                        <p class="lead">Engage your audience</p>
+                        <p>In a world where we are flying less we need new ways to reach developers and buyers. You need the kind of posts that hit the front page of Hacker News. You need to tell your story.</p>
+                        <p><blockquote>We build integrated packages of sample apps, demos, and top notch copywriting to help you build and maintain an audience, and convert interest into sales.</blockquote></p>
+
+                        <p class="lead">Community is your fly-wheel</p>
+                        <p>With a track-record of building organic developer communities, we'll help your team develop the strategy and tactics to gain even more traction.</p>
+                        <ul>
+                            <li>We helped Civo design &amp; launch the world's first managed K3s service.</li>
+                            <li>We helped Equinix Metal tell the world about their Tinkerbell project, which is now part of the CNCF.</li>
+                            <li>We drove leads to Sysdig through a series of educational webinars on Kubernetes.</li>
+                        </ul>
+
                         <p class="lead">Your Partner for Cloud Native</p>
                         <p>We'll partner with your experts on your Cloud Native journey. We'll ask you considerate questions, give an external perspective on the problem and reassure your team with our experience, network, and problem-solving skills.</p>
 
                         <p><blockquote>As a CNCF Ambassador, speaker, author and respected open source maintainer, our founder brings a wealth of experience, and key industry connections.</blockquote></p>
-                        <p>Whether you need help with cloud microservices architecture, OpenFaaS, Docker, Kubernetes, Open Source, or something else, then we are ready to help.</p>
+                
+                        <p>Whether you're just starting out, or just in need of a fresh perspective, we would love to hear from you.</p>
 
-                        <p class="lead">Community is your fly-wheel</p>
-                        <p>With a track-record of building organic developer communities, we'll help your team develop the strategy and tactics to gain even more traction.</p>
-
-                        <p class="lead">Engage your audience</p>
-                        <p>In a world where we are flying less we need new ways to reach developers and buyers. You need the kind of posts that hit the front page of Hacker News.</p>
-                        <p><blockquote>We build integrated packages of sample apps, demos, and top notch copywriting to help you build and maintain an audience, and convert interest into sales.</blockquote></p>
                         <hr />
                         <p class="lead">Let's start today</p>
-                        <p>
-                            Reach out over email and let us know how we can help. From there we'll define a Statement of Work (SoW) with well-defined outcomes and transparent pricing.</p>
+                        <p>Find out how we can help you grow your presence and build your brand through story-telling and our unique style.</p>
                         <h4>
-                            Email us now: <a href="mailto:sales@openfaas.com">sales@openfaas.com</a>
+                            Contact us now: <a href="mailto:contact@openfaas.com">contact@openfaas.com</a>
                         </h4>
                     </div>
                 </div>
 
                 <div class="panel panel-default">
                     <div class="panel-heading">
-                        <h3 class="panel-title">Connect with me</h3>
+                        <h4 class="panel-title">Connect with me</h3>
                     </div>
                     <div class="panel-body">
                         <div class="media col-xs-12 col-sm-12 col-md-6">
@@ -93,9 +108,9 @@
 
                             <div class="media-body">
                                 <h3 class="media-heading">
-                                    <a href="https://github.com/sponsors/alexellis/">Insiders Subscription</a>
+                                    <a href="https://github.com/sponsors/alexellis/">Insiders' Subscription</a>
                                 </h3>
-                                Join me on my journey into independent OSS through weekly updates on Kubernetes, Raspberry Pi, Go, and Open Source.
+                                Follow my journey into independent business and Open Source with an Insiders' subscription from GitHub Sponsors.
                             </div>
                         </div>
 
@@ -107,186 +122,193 @@
                             </div>
                             <div class="media-body">
                                 <h3 class="media-heading">
-                                    <a href="https://calendly.com/alexellis/50min-stripe">Ready to talk?</a>
+                                    <a href="https://calendly.com/alexellis/50min-stripe">Book a consultation</a>
                                 </h3>
-                                Book a 50 minute drop-in consultation with me through Stripe.
+                                Skip the paperwork and book a one-off consultation with me through Stripe.
                             </div>
                         </div>
                     </div>
                 </div>
 
-            <div class="panel panel-default">
-                <div class="panel-heading">
-                    <h3 class="panel-title">Featured articles &amp; tutorials</h3>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">Featured articles &amp; tutorials</h3>
+                    </div>
+                    <div class="panel-body" style="padding-bottom: 0;">
+                        <ul class="list-group">
+                            <li class="list-group-item">
+                                <a href="https://github.com/readme/alex-ellis">Balancing open source sacrifice and success - read my interview on GitHub's ReadME Project.</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a href="https://medium.com/@alexellisuk/then-he-asked-me-is-kubernetes-right-for-us-78695ee35289">Then he asked me "Is Kubernetes right for us?"</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a href="https://medium.com/@alexellisuk/walk-through-install-kubernetes-to-your-raspberry-pi-in-15-minutes-84a8492dc95a">Walk-through — install Kubernetes to your Raspberry Pi in 15 minutes</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a href="https://medium.com/@alexellisuk/bill-of-materials-for-my-home-office-f7f417dfbf0">Bill of Materials for my home office - for a semi-pro setup on a budget</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="panel-body" style="padding-bottom: 0;">
-                    <ul class="list-group">
-                        <li class="list-group-item">
-                            <a href="https://github.com/readme/alex-ellis">Balancing open source sacrifice and success - read my interview on GitHub's ReadME Project.</a>
-                        </li>
-                        <li class="list-group-item">
-                            <a href="https://medium.com/@alexellisuk/then-he-asked-me-is-kubernetes-right-for-us-78695ee35289"">Then he asked me "Is Kubernetes right for us?"</a>
-                        </li>
-                        <li class="list-group-item">
-                            <a href="https://medium.com/@alexellisuk/walk-through-install-kubernetes-to-your-raspberry-pi-in-15-minutes-84a8492dc95a">Walk-through — install Kubernetes to your Raspberry Pi in 15 minutes</a>
-                        </li>
-                        <li class="list-group-item">
-                            <a href="https://medium.com/@alexellisuk/bill-of-materials-for-my-home-office-f7f417dfbf0">Bill of Materials for my home office - for a semi-pro setup on a budget</a>
-                        </li>
-                    </ul>
+
+                
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">Enjoy my latest articles, blog posts, and videos</h3>
+                    </div>
+                    <div class="panel-body">
+
+                        <div class="media col-xs-12 col-sm-12 col-md-6">
+                            <div class="media-left">
+                                <img class="media-object" src="trove.png" alt="The Treasure Trove" width="64px" height="64px">
+                            </div>
+                            <div class="media-body">
+                                <h3 class="media-heading">
+                                    <a href="https://faasd.exit.openfaas.pro/function/trove"><span class="label label-default">New</span> The Treasure Trove</a>
+                                </h3>
+                            My premium content portal where you can learn Golang, download my Raspberry Pi workshop, and get discounted 1:1 mentoring and coaching.
+                        </div>
+                        </div>
+
+                        <div class="media col-xs-12 col-sm-12 col-md-6">
+                            <div class="media-left">
+                                <img class="media-object" src="github.png" alt="GitHub logo" width="64px" height="64px">
+                            </div>
+
+                            <div class="media-body">
+                                <h3 class="media-heading">
+                                    <a href="https://github.com/alexellis/">GitHub Projects</a>
+                                </h3>
+                                Follow me on GitHub and discover my Open Source projects such as k3sup, arkade, openfaas, inlets and much more.
+                            </div>
+                        </div>
+
+                        <div class="media col-xs-12 col-sm-12 col-md-6">
+                            <div class="media-left">
+                                <img class="media-object" src="ghost.png" alt="My blog" width="64px" height="64px">
+                            </div>
+                            <div class="media-body">
+                                <h3 class="media-heading">
+                                    <a href="http://blog.alexellis.io/">Technical Blog</a>
+                                </h3>
+                                Technical writing on: OSS, Go, Serverless, Linux, Kubernetes, Docker &amp; Raspberry Pi.
+                            </div>
+                        </div>
+
+                        <div class="media col-xs-12 col-sm-12 col-md-6">
+                            <div class="media-left">
+                                <img class="media-object" src="youtube.png" alt="My YouTube channel" width="64px" height="64px">
+                            </div>
+                            <div class="media-body">
+                                <h3 class="media-heading">
+                                    <a href="https://www.youtube.com/channel/UCJsK5Zbq0dyFZUBtMTHzxjQ">Subscribe on YouTube</a>
+                                </h3>
+                                Videos, webinars, tutorials, walkthroughs, and public speaking on Cloud Native & Linux.
+                            </div>
+                        </div>
+
+                    </div>
+    
                 </div>
+    
+
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">Highlighted open source projects</h3>
+                    </div>
+                    <div class="panel-body">
+
+                        <div class="media col-xs-12 col-sm-12 col-md-6">
+                            <div class="media-left">
+                                <img style="margin-right: 5px; margin-left: 5px" class="media-object" src="https://github.com/inlets/inlets/raw/master/docs/inlets-logo-sm.png" alt="Inlets" width="54px" height="64px">
+                            </div>
+                            <div class="media-body">
+                                <h3 class="media-heading">
+                                    <a href="https://inlets.dev/">Inlets</a>
+                                </h3>
+                                Connect services and networks anywhere with the tunnel built for Cloud Native.
+                            </div>
+                        </div>
+
+                        <div class="media col-xs-12 col-sm-12 col-md-6">
+                            <div class="media-left">
+                                <img class="media-object" src="https://raw.githubusercontent.com/openfaas/media/master/OpenFaaS_logo_stacked_opaque.png" alt="OpenFaaS" width="64px" height="64px">
+                            </div>
+
+                            <div class="media-body">
+                                <h3 class="media-heading">
+                                    <a href="https://www.openfaas.com/">OpenFaaS&reg; Serverless Functions Made Simple</a>
+                                </h3>
+                                OpenFaaS brings a simple, secure and standardised way to build and deploy your applications to Kubernetes.
+                            </div>
+                        </div>
+
+                        <div class="media col-xs-12 col-sm-12 col-md-6">
+                            <div class="media-left">
+                                <img class="media-object" src="k3sup-small.png" alt="Derek" width="64px" height="64px">
+                            </div>
+
+                            <div class="media-body">
+                                <h3 class="media-heading">
+                                    <a href="https://github.com/alexellis/k3sup">k3sup - ("ketchup")</a>
+                                </h3>
+                                Bootstrap multi-node or HA k3s clusters with a simple <code>install</code> and <code>join</code> command over SSH.
+                            </div>
+                        </div>
+
+                        <div class="media col-xs-12 col-sm-12 col-md-6">
+                            <div class="media-left">
+                                <img class="media-object" src="arkade.png" alt="Derek" width="64px" height="64px">
+                            </div>
+
+                            <div class="media-body">
+                                <h3 class="media-heading">
+                                    <a href="https://github.com/alexellis/arkade">arkade - Open Source Marketplace</a>
+                                </h3>
+                                Discover apps for your Kubernetes cluster with a developer-friendly experience. Contribute, use it locally, or with any cloud.
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">Merchandise and SWAG store</h3>
+                    </div>
+                    <div class="panel-body">
+
+                        <div class="media col-xs-12 col-sm-12 col-md-12">
+                            <div class="media-left">
+                                <img class="media-object" src="swag.jpg" alt="OpenFaaS" width="64px" height="64px">
+                            </div>
+                            <div class="media-body">
+                                <h3 class="media-heading">
+                                    <a href="https://store.openfaas.com/">OpenFaaS Ltd Store</a>
+                                </h3>
+                                <p>
+                                    Buy your own OpenFaaS, inlets, k3sup and arkade SWAG including hoodies, t-shirts, mugs, and more.
+                                </p>
+                                <p>
+                                    Show off your new kit on our next community call, or your daily stand-up at work.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
             </div>
 
-            <div class="panel panel-default">
-                <div class="panel-heading">
-                    <h3 class="panel-title"><span class="label label-default">New</span>&nbsp;Community SWAG store</h3>
-                </div>
-                <div class="panel-body">
-
-                    <div class="media col-xs-12 col-sm-12 col-md-12">
-                        <div class="media-left">
-                            <img class="media-object" src="swag.jpg" alt="OpenFaaS" width="64px" height="64px">
-                        </div>
-                        <div class="media-body">
-                            <h3 class="media-heading">
-                                <a href="https://store.openfaas.com/">OpenFaaS Ltd Store</a>
-                            </h3>
-                            <p>
-                                Buy your own OpenFaaS, inlets, k3sup and arkade SWAG including hoodies, t-shirts, mugs, and more.
-                            </p>
-                            <p>
-                                Show off your new kit on our next community call, or your daily stand-up at work.
-                            </p>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-
-            <div class="panel panel-default">
-                <div class="panel-heading">
-                    <h3 class="panel-title">Highlighted open source projects</h3>
-                </div>
-                <div class="panel-body">
-
-                    <div class="media col-xs-12 col-sm-12 col-md-6">
-                        <div class="media-left">
-                            <img style="margin-right: 5px; margin-left: 5px" class="media-object" src="https://github.com/inlets/inlets/raw/master/docs/inlets-logo-sm.png" alt="Inlets" width="54px" height="64px">
-                        </div>
-                        <div class="media-body">
-                            <h3 class="media-heading">
-                                <a href="https://docs.inlets.dev/">Inlets</a>
-                            </h3>
-                            Connect Anything Securely with the Cloud Native Tunnel for TCP/HTTP(s) Services.
-                        </div>
-                    </div>
-
-                    <div class="media col-xs-12 col-sm-12 col-md-6">
-                        <div class="media-left">
-                            <img class="media-object" src="https://raw.githubusercontent.com/openfaas/media/master/OpenFaaS_logo_stacked_opaque.png" alt="OpenFaaS" width="64px" height="64px">
-                        </div>
-
-                        <div class="media-body">
-                            <h3 class="media-heading">
-                                <a href="https://www.openfaas.com/">OpenFaaS&reg; Serverless Functions Made Simple</a>
-                            </h3>
-                            OpenFaaS brings a simple, secure and standardised way to build and deploy your applications to Kubernetes.
-                        </div>
-                    </div>
-
-                    <div class="media col-xs-12 col-sm-12 col-md-6">
-                        <div class="media-left">
-                            <img class="media-object" src="k3sup-small.png" alt="Derek" width="64px" height="64px">
-                        </div>
-
-                        <div class="media-body">
-                            <h3 class="media-heading">
-                                <a href="https://github.com/alexellis/k3sup">k3sup - ("ketchup")</a>
-                            </h3>
-                            Bootstrap multi-node or HA k3s clusters with a simple <code>install</code> and <code>join</code> command over SSH.
-                        </div>
-                    </div>
-
-                    <div class="media col-xs-12 col-sm-12 col-md-6">
-                        <div class="media-left">
-                            <img class="media-object" src="arkade.png" alt="Derek" width="64px" height="64px">
-                        </div>
-
-                        <div class="media-body">
-                            <h3 class="media-heading">
-                                <a href="https://github.com/alexellis/arkade">arkade - Kubernetes apps, the easy way</a>
-                            </h3>
-                            Discover and install apps and CLIs to your Kubernetes cluster with a developer-friendly experience.
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-
-            <div class="panel panel-default">
-                <div class="panel-heading">
-                    <h3 class="panel-title">Enjoy my latest articles, blog posts, and videos</h3>
-                </div>
-                <div class="panel-body">
-
-                    <div class="media col-xs-12 col-sm-12 col-md-6">
-                        <div class="media-left">
-                            <img class="media-object" src="trove.png" alt="The Treasure Trove" width="64px" height="64px">
-                        </div>
-                        <div class="media-body">
-                            <h3 class="media-heading">
-                                <a href="https://faasd.exit.openfaas.pro/function/trove">The Treasure Trove</a>
-                            </h3>
-                           Subscribe via GitHub Sponsors to access every edition of Insiders Updates.
-                        </div>
-                    </div>
-
-                    <div class="media col-xs-12 col-sm-12 col-md-6">
-                        <div class="media-left">
-                            <img class="media-object" src="github.png" alt="GitHub logo" width="64px" height="64px">
-                        </div>
-
-                        <div class="media-body">
-                            <h3 class="media-heading">
-                                <a href="https://github.com/alexellis/">GitHub Projects</a>
-                            </h3>
-                            Follow me on GitHub and discover my journey through code.
-                        </div>
-                    </div>
-
-                    <div class="media col-xs-12 col-sm-12 col-md-6">
-                        <div class="media-left">
-                            <img class="media-object" src="ghost.png" alt="My blog" width="64px" height="64px">
-                        </div>
-                        <div class="media-body">
-                            <h3 class="media-heading">
-                                <a href="http://blog.alexellis.io/">Technical Blog</a>
-                            </h3>
-                            Technical writing on: OSS, Go, Serverless, Linux, Kubernetes, Docker &amp; Raspberry Pi.
-                        </div>
-                    </div>
-
-                    <div class="media col-xs-12 col-sm-12 col-md-6">
-                        <div class="media-left">
-                            <img class="media-object" src="youtube.png" alt="My YouTube channel" width="64px" height="64px">
-                        </div>
-                        <div class="media-body">
-                            <h3 class="media-heading">
-                                <a href="https://www.youtube.com/channel/UCJsK5Zbq0dyFZUBtMTHzxjQ">Subscribe on YouTube</a>
-                            </h3>
-                            Videos, webinars, tutorials, walkthroughs, and public speaking on Cloud Native & Linux.
-                        </div>
-                    </div>
-
-                </div>
+            <div style="margin-top:10px" class="row col-xs-12">
+                <hr/>
+                <p>My personal email address is <a href="mailto:alex@openfaas.com">alex@openfaas.com</a></p>
+                <p>All services are offered by OpenFaaS Ltd. OpenFaaS Ltd. is a registered company in England & Wales with number: 11076587, registered address: Peterborough UK.</p>
             </div>
         </div>
 
-        <div style="margin-top:10px" class="row col-xs-12">
-            <hr/>
-            <p>My personal email address is <a href="mailto:alex@openfaas.com">alex@openfaas.com</a></p>
-            <p>All services are offered by OpenFaaS Ltd. OpenFaaS Ltd. is a registered company in England & Wales with number: 11076587, registered address: Peterborough UK.</p>
-        </div>
     </div>
 
     <!-- GoogleAnalyticsObject -->
