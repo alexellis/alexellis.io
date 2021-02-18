@@ -2,7 +2,7 @@
 
 set -e
 
-export DATE=2021-01-26
+export DATE=2021-02-18
 
 TAG="alexellis2/alexellisio:$DATE"
 
