@@ -9,6 +9,6 @@ docker pull $TAG
 docker rm -f alexellisio
 
 docker run --name alexellisio \
- -p 3000:3000 \
+ -p 127.0.0.1:3000:3000 \
  --restart=always \
  -d ${TAG}
