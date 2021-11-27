@@ -2,8 +2,6 @@
 
 set -e
 
-export DATE=2021-10-31
-
 TAG="alexellis2/alexellisio:$DATE"
 
 docker pull $TAG

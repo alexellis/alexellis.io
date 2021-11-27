@@ -1,4 +1,4 @@
-FROM node:14-alpine
+FROM node:16-alpine
 
 WORKDIR /root/
 
@@ -8,4 +8,4 @@ RUN npm i
 COPY . .
 
 EXPOSE 3000
-CMD ["node", "app.js"]
+CMD ["npm", "start"]
