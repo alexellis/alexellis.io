@@ -54,6 +54,27 @@ docker run -p 3000:3000 alexellis-website
 
 3. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
+## Deploying to GitHub Pages
+
+This site is configured for static export and can be deployed to GitHub Pages.
+
+### Automatic Deployment
+
+1. Push your code to the `main` branch
+2. Go to your repository Settings → Pages
+3. Set the source to "GitHub Actions"
+4. The site will automatically deploy on every push to main
+
+### Manual Deployment
+
+1. Build the static site:
+```bash
+npm run build
+```
+
+2. The static files will be generated in the `out/` directory
+3. Upload the contents of `out/` to your GitHub Pages hosting
+
 ## Development
 
 The website is built with:
@@ -73,5 +94,6 @@ alexellis.io/
 ├── tailwind.config.js  # Tailwind configuration
 ├── package.json        # Dependencies and scripts
 ├── Dockerfile          # Docker configuration
-└── docker-compose.yml  # Docker Compose configuration
+├── docker-compose.yml  # Docker Compose configuration
+└── .github/workflows/  # GitHub Actions workflows
 ``` 
