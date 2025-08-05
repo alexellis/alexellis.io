@@ -2,8 +2,6 @@
 const nextConfig = {
   output: 'export',
   trailingSlash: true,
-  basePath: '/alexellis.io',
-  assetPrefix: '/alexellis.io/',
   images: {
     unoptimized: true,
     remotePatterns: [
