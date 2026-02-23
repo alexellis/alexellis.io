@@ -1,6 +1,14 @@
-import Image from "next/image"
-import Link from "next/link"
-import { Github, Twitter, Linkedin, Mail, ExternalLink, BookOpen, Star } from "lucide-react"
+import Image from "next/image";
+import Link from "next/link";
+import {
+  Github,
+  Twitter,
+  Linkedin,
+  Mail,
+  ExternalLink,
+  BookOpen,
+  Star,
+} from "lucide-react";
 
 export default function Home() {
   return (
@@ -20,32 +28,50 @@ export default function Home() {
           <nav>
             <ul className="flex space-x-6 text-sm">
               <li>
-                <Link href="#about" className="hover:text-zinc-400 transition-colors">
+                <Link
+                  href="#about"
+                  className="hover:text-zinc-400 transition-colors"
+                >
                   About
                 </Link>
               </li>
               <li>
-                <Link href="#products" className="hover:text-zinc-400 transition-colors">
+                <Link
+                  href="#products"
+                  className="hover:text-zinc-400 transition-colors"
+                >
                   Products
                 </Link>
               </li>
               <li>
-                <Link href="#projects" className="hover:text-zinc-400 transition-colors">
+                <Link
+                  href="#projects"
+                  className="hover:text-zinc-400 transition-colors"
+                >
                   OSS
                 </Link>
               </li>
               <li>
-                <Link href="#ebooks" className="hover:text-zinc-400 transition-colors">
+                <Link
+                  href="#ebooks"
+                  className="hover:text-zinc-400 transition-colors"
+                >
                   eBooks
                 </Link>
               </li>
               <li>
-                <Link href="#blog" className="hover:text-zinc-400 transition-colors">
+                <Link
+                  href="#blog"
+                  className="hover:text-zinc-400 transition-colors"
+                >
                   Blog
                 </Link>
               </li>
               <li>
-                <Link href="#contact" className="hover:text-zinc-400 transition-colors">
+                <Link
+                  href="#contact"
+                  className="hover:text-zinc-400 transition-colors"
+                >
                   Contact
                 </Link>
               </li>
@@ -53,7 +79,10 @@ export default function Home() {
           </nav>
           <div className="mt-8 border-t border-zinc-800 pt-4">
             <div className="flex space-x-4">
-              <Link href="https://github.com/alexellis" className="text-zinc-400 hover:text-zinc-200 transition-colors">
+              <Link
+                href="https://github.com/alexellis"
+                className="text-zinc-400 hover:text-zinc-200 transition-colors"
+              >
                 <Github size={20} />
                 <span className="sr-only">GitHub</span>
               </Link>
@@ -78,46 +107,56 @@ export default function Home() {
         <main className="space-y-16">
           <section id="about" className="space-y-4">
             <div className="border-l-2 border-zinc-700 pl-4">
-              <h2 className="text-xl font-bold text-zinc-100">Putting developer experience first</h2>
+              <h2 className="text-xl font-bold text-zinc-100">
+                Putting developer experience first
+              </h2>
             </div>
             <p className="leading-relaxed">
-              I build premium software that is easy to operate, puts you back in control, and is portable between cloud and
-              on-premises.
+              I build premium software that is easy to operate, puts you back in
+              control, and is portable between cloud and on-premises.
             </p>
             <p className="leading-relaxed">
-              My focus is on improving the developer experience of serverless, microVMs like Firecracker, containers and
-              Kubernetes.
+              My focus is on improving the developer experience of serverless,
+              microVMs like Firecracker, containers and Kubernetes.
             </p>
             <ul className="list-disc list-inside space-y-2 mt-4">
-              <li>Entrepreneur specialising in developer experience & marketing</li>
-              <li>Well-known Open Source maintainer, respected expert on Cloud Native</li>
+              <li>
+                Entrepreneur specialising in developer experience & marketing
+              </li>
+              <li>
+                Well-known Open Source maintainer, respected expert on Cloud
+                Native
+              </li>
               <li>Accomplished conference-speaker and published author</li>
             </ul>
           </section>
 
           <section id="blog" className="space-y-6">
             <div className="border-l-2 border-zinc-700 pl-4">
-              <h2 className="text-xl font-bold text-zinc-100">Recent Writing</h2>
+              <h2 className="text-xl font-bold text-zinc-100">
+                Recent Writing
+              </h2>
             </div>
 
             <div className="space-y-8">
               <div className="space-y-2 border-t border-zinc-800 pt-4">
-                <h3 className="text-lg font-bold text-zinc-100">Read my latest blog posts</h3>
+                <h3 className="text-lg font-bold text-zinc-100">
+                  Read my latest blog posts
+                </h3>
                 <p className="text-zinc-500 text-sm">2025-08-05</p>
                 <p className="leading-relaxed">
-                  Learn about Kubernetes, MicroVMs, Firecracker, Golang, Raspberry Pi,and self-hosting.
+                  Learn about Kubernetes, MicroVMs, Firecracker, Golang,
+                  Raspberry Pi,and self-hosting.
                 </p>
 
                 <Link
-                href="https://blog.alexellis.io"
-                className="inline-flex items-center space-x-2 border border-zinc-700 px-4 py-2 text-sm hover:bg-zinc-800 transition-colors"
-              >
-                <BookOpen size={16} />
-                <span>Read my latest posts</span>
-              </Link>
-
+                  href="https://blog.alexellis.io"
+                  className="inline-flex items-center space-x-2 border border-zinc-700 px-4 py-2 text-sm hover:bg-zinc-800 transition-colors"
+                >
+                  <BookOpen size={16} />
+                  <span>Read my latest posts</span>
+                </Link>
               </div>
-
             </div>
           </section>
 
@@ -130,8 +169,9 @@ export default function Home() {
               <div className="space-y-2 border-t border-zinc-800 pt-4">
                 <h3 className="text-lg font-bold text-zinc-100">* OpenFaaS</h3>
                 <p className="leading-relaxed">
-                  Serverless Functions Made Simple. OpenFaaS makes it easy for developers to
-                  deploy event-driven functions and microservices to Kubernetes without repetitive, boiler-plate coding.
+                  Serverless Functions Made Simple. OpenFaaS makes it easy for
+                  developers to deploy event-driven functions and microservices
+                  to Kubernetes without repetitive, boiler-plate coding.
                 </p>
                 <Link
                   href="https://www.openfaas.com/"
@@ -143,9 +183,28 @@ export default function Home() {
               </div>
 
               <div className="space-y-2 border-t border-zinc-800 pt-4">
+                <h3 className="text-lg font-bold text-zinc-100">* Slicer</h3>
+                <p className="leading-relaxed">
+                  Slicer makes Linux programmable through isolated microVMs
+                  (including on macOS). Use it locally via CLI/REST API for
+                  faster development, or integrate it into a product for tightly
+                  isolated execution environments.
+                </p>
+                <Link
+                  href="https://slicervm.com"
+                  className="inline-flex items-center space-x-1 text-zinc-400 hover:text-zinc-200 transition-colors text-sm"
+                >
+                  <span>slicervm.com</span>
+                  <ExternalLink size={14} />
+                </Link>
+              </div>
+
+              <div className="space-y-2 border-t border-zinc-800 pt-4">
                 <h3 className="text-lg font-bold text-zinc-100">* Actuated</h3>
                 <p className="leading-relaxed">
-                  Actuated provides a fast, secure, and hands-off solution for CI for GitHub Actions and GitLab CI. Jobs run in ephemeral microVMs, just bring your own server and actuated does the rest.
+                  Actuated provides a fast, secure, and hands-off solution for
+                  CI for GitHub Actions, GitLab CI, and Jenkins. Jobs run in
+                  ephemeral microVMs, just add servers.
                 </p>
                 <Link
                   href="https://actuated.com"
@@ -159,7 +218,9 @@ export default function Home() {
               <div className="space-y-2 border-t border-zinc-800 pt-4">
                 <h3 className="text-lg font-bold text-zinc-100">* Inlets</h3>
                 <p className="leading-relaxed">
-                  With Inlets, you can expose your local HTTP and TCP services to the Internet through a VM or Kubernetes cluster. Unlike SaaS tunnels, there are no rate or connection limits.
+                  Expose your local HTTP and TCP services to the Internet
+                  through a VM or Kubernetes cluster. No rate-limits, no
+                  connection throttling, no snooping. It's fully private.
                 </p>
                 <Link
                   href="https://inlets.dev"
@@ -174,15 +235,18 @@ export default function Home() {
 
           <section id="projects" className="space-y-6">
             <div className="border-l-2 border-zinc-700 pl-4">
-              <h2 className="text-xl font-bold text-zinc-100">Open Source Projects</h2>
+              <h2 className="text-xl font-bold text-zinc-100">
+                Open Source Projects
+              </h2>
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               <div className="space-y-2 border-t border-zinc-800 pt-4">
                 <h3 className="text-lg font-bold text-zinc-100">* k3sup</h3>
                 <p className="leading-relaxed">
-                  Bootstrap Kubernetes with k3s over SSH in less than 1 minute. k3sup is a light-weight utility to get
-                  from zero to KUBECONFIG with k3s on any Linux machine.
+                  Bootstrap Kubernetes with k3s over SSH in less than 1 minute.
+                  Get from zero to KUBECONFIG with k3s on any Linux machine -
+                  single node, or fully HA.
                 </p>
                 <Link
                   href="https://github.com/alexellis/k3sup"
@@ -196,8 +260,8 @@ export default function Home() {
               <div className="space-y-2 border-t border-zinc-800 pt-4">
                 <h3 className="text-lg font-bold text-zinc-100">* arkade</h3>
                 <p className="leading-relaxed">
-                  The open source marketplace for Kubernetes. arkade provides a curated collection of apps and CLIs that
-                  you can install with a single command.
+                  Open Source Marketplace For Developer Tools. i.e.{" "}
+                  <code className="italic">arkade get helm claude k9s</code>
                 </p>
                 <Link
                   href="https://github.com/alexellis/arkade"
@@ -209,9 +273,12 @@ export default function Home() {
               </div>
 
               <div className="space-y-2 border-t border-zinc-800 pt-4">
-                <h3 className="text-lg font-bold text-zinc-100">* inlets-operator</h3>
+                <h3 className="text-lg font-bold text-zinc-100">
+                  * inlets-operator
+                </h3>
                 <p className="leading-relaxed">
-                  Get real functioning TCP LoadBalancers for your Kubernetes services when running outside of public cloud.
+                  Make local development as good as production. Add L4 TCP
+                  LoadBalancers to any private or local Kubernetes cluster.
                 </p>
                 <Link
                   href="https://github.com/inlets/inlets-operator"
@@ -241,10 +308,12 @@ export default function Home() {
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               <div className="space-y-2 border-t border-zinc-800 pt-4">
-                <h3 className="text-lg font-bold text-zinc-100">* Serverless for Everyone Else</h3>
+                <h3 className="text-lg font-bold text-zinc-100">
+                  * Serverless for Everyone Else
+                </h3>
                 <p className="leading-relaxed">
-                  Learn how to build, deploy and run serverless functions with practical examples using OpenFaaS on your
-                  own infrastructure.
+                  Learn how to build, deploy and run serverless functions with
+                  practical examples using OpenFaaS on your own infrastructure.
                 </p>
                 <Link
                   href="#"
@@ -256,10 +325,12 @@ export default function Home() {
               </div>
 
               <div className="space-y-2 border-t border-zinc-800 pt-4">
-                <h3 className="text-lg font-bold text-zinc-100">* Everyday Golang</h3>
+                <h3 className="text-lg font-bold text-zinc-100">
+                  * Everyday Golang
+                </h3>
                 <p className="leading-relaxed">
-                  A practical guide to Go programming with real-world examples and techniques for building efficient
-                  applications.
+                  A practical guide to Go programming with real-world examples
+                  and techniques for building efficient applications.
                 </p>
                 <Link
                   href="#"
@@ -271,10 +342,12 @@ export default function Home() {
               </div>
 
               <div className="space-y-2 border-t border-zinc-800 pt-4">
-                <h3 className="text-lg font-bold text-zinc-100">* Netbooting the Raspberry Pi</h3>
+                <h3 className="text-lg font-bold text-zinc-100">
+                  * Netbooting the Raspberry Pi
+                </h3>
                 <p className="leading-relaxed">
-                  A comprehensive guide to network booting Raspberry Pi devices, perfect for building clusters and
-                  managing multiple devices.
+                  A comprehensive guide to network booting Raspberry Pi devices,
+                  perfect for building clusters and managing multiple devices.
                 </p>
                 <Link
                   href="#"
@@ -287,35 +360,34 @@ export default function Home() {
             </div>
           </section>
 
-
           <section id="contact" className="space-y-4">
             <div className="border-l-2 border-zinc-700 pl-4">
               <h2 className="text-xl font-bold text-zinc-100">Contact</h2>
             </div>
             <p className="leading-relaxed">
-              I'm available for advice on: developer experience, individual career development, speaking engagements, and workshops. 
+              Reach out for collaboration opportunities and speaking
+              engagements.
             </p>
             <ul className="space-y-2 list-disc list-inside">
-              
-            <li><Link
-              href="https://calendly.com/alexellis/"
-              className="inline-flex items-center space-x-2 text-zinc-400 hover:text-zinc-200 transition-colors"
-            >
-              <Mail size={16} />
-              <span>Pay for a consultation via Zoom</span>
-            </Link>
-            </li>
+              <li>
+                <Link
+                  href="https://calendly.com/alexellis/"
+                  className="inline-flex items-center space-x-2 text-zinc-400 hover:text-zinc-200 transition-colors"
+                >
+                  <Mail size={16} />
+                  <span>Pay for a consultation via Zoom</span>
+                </Link>
+              </li>
 
-
-            <li>
-            <Link
-              href="mailto:alex@openfaas.com"
-              className="inline-flex items-center space-x-2 text-zinc-400 hover:text-zinc-200 transition-colors"
-            >
-              <Mail size={16} />
-              <span>Email me: alex@openfaas.com</span>
-            </Link>
-            </li>
+              <li>
+                <Link
+                  href="mailto:alex@openfaas.com"
+                  className="inline-flex items-center space-x-2 text-zinc-400 hover:text-zinc-200 transition-colors"
+                >
+                  <Mail size={16} />
+                  <span>Email me: alex@openfaas.com</span>
+                </Link>
+              </li>
             </ul>
           </section>
         </main>
@@ -325,7 +397,5 @@ export default function Home() {
         </footer>
       </div>
     </div>
-  )
+  );
 }
-
-
