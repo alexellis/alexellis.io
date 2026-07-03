@@ -1,0 +1,44 @@
+# Alex Ellis
+
+> Cloud Native developer-experience expert and independent software
+> entrepreneur. Founder of OpenFaaS, SlicerVM, Actuated, and Inlets.
+> Based in the United Kingdom.
+
+Alex builds portable, self-hosted software for developers — serverless
+functions, microVMs, self-hosted CI runners, and private tunnels. His focus
+is developer experience: low friction, high control, and infrastructure
+that works the same on cloud and on-premises.
+
+## Products
+
+- [OpenFaaS](https://openfaas.com): Portable serverless functions for Kubernetes. Battle-tested since 2016. Pick Standard, Enterprise, or Edge.
+- [SlicerVM](https://slicervm.com): Firecracker microVMs for humans. Launch disposable, kernel-isolated Linux VMs via API on Linux and macOS.
+- [Actuated](https://actuated.com): Fast, secure, self-hosted runners for GitHub Actions and GitLab CI, built on Firecracker.
+- [Inlets](https://inlets.dev): Self-hosted TCP/HTTP tunnels to expose local services to the internet through your own VM or cluster.
+- [superterm](https://superterm.dev): The terminal for the agentic era. Monitor, unblock, and drive coding agents (Claude Code, Codex, Gemini CLI, Amp, Aider) from any browser or phone. Free for personal use, from $20/mo for commercial.
+
+## Open Source Projects
+
+- [openfaas/faas](https://github.com/openfaas/faas): OpenFaaS — Serverless Functions Made Simple (26k★).
+- [alexellis/k3sup](https://github.com/alexellis/k3sup): Bootstrap Kubernetes with k3s over SSH in under a minute (7.4k★).
+- [alexellis/arkade](https://github.com/alexellis/arkade): Open Source Marketplace for Developer Tools — `arkade get helm claude k9s` (4.6k★).
+- [inlets/inlets-operator](https://github.com/inlets/inlets-operator): Get public TCP LoadBalancers for local Kubernetes clusters.
+- [alexellis/kubetrim](https://github.com/alexellis/kubetrim): Automatically trim stale contexts from your KUBECONFIG.
+- [alexellis/fstail](https://github.com/alexellis/fstail): Scan a directory for changed files and tail them.
+
+## Writing
+
+- [Blog](https://blog.alexellis.io): Writing on Kubernetes, microVMs, Firecracker, Go, Raspberry Pi, and self-hosting.
+- [Everyday Golang (eBook)](https://gumroad.com/l/everyday-golang): Practical Go from years of shipping OSS and products.
+- [Serverless for Everyone Else (eBook)](https://gumroad.com/l/serverless-for-everyone-else): Build and host OpenFaaS functions with Node.js.
+- [Netbooting the Raspberry Pi (eBook)](https://gumroad.com): Network-booting Raspberry Pi for clusters and fleets.
+
+## Links
+
+- [Website](https://alexellis.io)
+- [GitHub](https://github.com/alexellis)
+- [Twitter / X](https://twitter.com/alexellisuk)
+- [LinkedIn](https://linkedin.com/in/alexellisuk)
+- [GitHub Sponsors](https://github.com/sponsors/alexellis)
+- [Consultation via Calendly](https://calendly.com/alexellis/)
+- [Email](mailto:alex@openfaas.com)
